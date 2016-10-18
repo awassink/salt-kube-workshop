@@ -10,6 +10,7 @@ git-kube-deploy:
   git.latest:
     - name: https://github.com/awassink/kube-deploy.git
     - force_reset: True
+    - force_checkout: True
     - target: /root/kube-deploy
 
 kube-deploy-worker:
