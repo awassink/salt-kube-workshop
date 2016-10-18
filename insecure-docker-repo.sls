@@ -5,3 +5,5 @@ insecure-repo:
 docker:
   service.running:
     - restart: True
+    - watch:
+      - file: /etc/default/docker
