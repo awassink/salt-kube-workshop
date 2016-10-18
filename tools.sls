@@ -1,3 +1,7 @@
 tools installed:
   pkg.installed:
-    - name: wget curl zip dnsutils
+    - pkgs:
+      - wget
+      - curl
+      - zip
+      - dnsutils
