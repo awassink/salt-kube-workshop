@@ -4,4 +4,5 @@ tools installed:
       - wget
       - curl
       - zip
+      - unzip
       - dnsutils
