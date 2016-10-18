@@ -1,3 +1,3 @@
-vim installed:
+tools installed:
   pkg.installed:
-    - name: vim
+    - name: wget curl zip dnsutils
