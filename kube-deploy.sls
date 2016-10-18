@@ -4,13 +4,12 @@ kube-deps-installed:
       - bridge-utils
       - glusterfs-client
       - nfs-common
+      - git
 
 git-kube-deploy:
   git.latest:
     - name: https://github.com/awassink/kube-deploy.git
     - target: /root/kube-deploy
-    - require:
-      - pkg: git
 
 kube-deploy-worker:
   cmd.run:
