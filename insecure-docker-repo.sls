@@ -8,5 +8,6 @@ insecure-repo:
 docker:
   service.running:
     - restart: True
+    - reload: True
     - watch:
       - file: /etc/default/docker
