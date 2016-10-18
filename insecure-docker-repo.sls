@@ -6,4 +6,4 @@ docker:
   service.running:
     - restart: True
     - watch:
-      - cmd: "/etc/default/docker"
+      - cmd: "ls -al /etc/default/docker"
