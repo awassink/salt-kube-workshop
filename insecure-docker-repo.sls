@@ -4,6 +4,5 @@ insecure-repo:
 
 docker:
   service.running:
-    - reload: True
     - watch:
       - file: /etc/default/docker
